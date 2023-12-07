@@ -1,0 +1,398 @@
+:root{ 
+    
+    ---primaria: rgb(145, 0, 157);
+  ---primaria-escura: rgba(75, 0, 82, 0.925);;
+  ---primaria-clara: rgb(181, 41, 194);
+
+  ---secudaria:rgb(250, 235, 215);
+  ---secundaria-clara: rgb(254, 245, 233);
+  ---secundaria-escura: rgb(254, 215, 163);
+  ---seundaria2:rgba(224, 192, 150, 0.692);
+
+  ---black: #000;
+  ---grey:#CCCC;
+  ---grey2: #545455;
+  ---white:#fff;
+
+}
+  
+  main{
+     padding: 60px;
+      margin-top: 50px;
+      
+  }
+  body{
+     background-color: var(---secudaria);
+  
+     
+  }
+  
+  .barra-nav{
+      text-align: end;
+      box-shadow: black;
+      display:block;
+      margin: -50px;
+      margin-right: 50px;
+      word-spacing: 40px; 
+  }
+  .barra-nav-perfil{
+    text-align: end;
+      box-shadow: black;
+      display:block;
+      margin: -75px;
+      margin-right: 50px;
+      word-spacing: 40px; 
+  }
+  
+  .nav{
+      background: var(---primaria);
+      margin-right: 20px;
+      height: 100px;
+          
+          
+  }
+      
+  .nav-link{
+      font-family: 'Kanit', sans-serif;
+      text-decoration: none;
+      color: var(---secundaria-clara);
+      font-size: 20px;
+      align-items: flex-end;
+      
+    }
+
+  .nav-link2{
+      color: var(---secundaria-clara);
+      background-color: var(---primaria-escura);
+      text-decoration: none;
+      font-family: 'Kanit', sans-serif;
+      font-size: 30px;
+      border: solid 5px var(---primaria-escura);
+      border-radius:30px;
+  }
+      
+  .nav-link:hover{
+      text-decoration: underline;
+      color: var(---secundaria-clara);
+      transition: 1s;}
+  
+  .home{
+      display: flex;
+      align-items:center;
+  }
+  
+  .img{
+      
+      height: 650px;
+      width: 450px;
+      margin: 25px  60px 25px 300px;
+     
+  }
+  
+  .subtitulos{
+      color:var(---black);
+      font-size: 50px;
+      font-family: 'Kanit', sans-serif
+  
+  }
+  
+  .home-cadastro-login{
+      color: var(---primaria-escura);
+      font-family: 'Kanit', sans-serif;
+      text-align: start;
+      width: 450px;
+      
+    } 
+  
+  
+      .paragrafo2{
+          color: var(---secundaria-clara);
+          font-family: 'Kanit', sans-serif;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      } 
+      
+      .logo{
+          color: var(---secundaria-clara);
+          font-size: 40px;
+          height: 100px; 
+          width: 160px;
+          margin-left: 38px;
+      }
+  
+  
+      header{
+          box-shadow: inset black;
+      }
+  
+  
+     
+  
+       .pergunta{
+          color: var(---secundaria-clara);
+          text-align: center;
+          font-size: 50px;
+          font-family: 'Kanit', sans-serif;
+          background-color: var(---primaria-escura);
+      }
+  
+   
+  .corpo-principal2{
+  
+      display: flex;
+      align-items:center;
+      justify-content: space-around;}
+  
+      .X{
+          color: var(---secundaria2);
+      }
+  
+  
+      .img-1{
+          height: 400px;
+          width: 400px;
+          margin: 5px 0px 0px 10px; 
+         
+      }
+    
+    .button-google{
+      border-radius: 25px;
+      width: 500px;
+      height: 50px;
+      border: var(---grey) solid 4px;
+      margin-bottom: 30px;
+      font-family: 'Kanit', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+     
+    }
+      .button-login{
+        border-radius: 25px;
+        width: 500px;
+        height: 50px;
+        color: white;
+        background-color:var(---primaria);
+        border: var(---primaria);
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        
+      }
+    .pergunta-sobre-conta-home{
+        color: var(---black);
+         margin-left: 60px;
+         padding-inline-start: 2px;
+        
+      }
+      .button-cadastro{
+        width: 230px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: var(---primaria-escura);
+        color: var(---white);
+        font-family: 'Kanit', sans-serif;
+        font-weight:400;
+        
+    }
+
+        .box-cadastro{
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+            margin: -50px;
+            margin-bottom:4px; 
+        }
+
+      .img-google{
+        width: 50px;
+        height: 35px;
+        margin: -10px;
+        word-spacing: 10px;
+        
+      }
+      .img-cadastro{
+        width:30px ;
+        height: 30px;
+        margin: -10px;
+        margin-right: 3px;        
+      }
+      
+      .box-perfil{
+        margin-left:250px ;
+        display: flex;
+        
+        }
+        section{
+            display: block;
+            margin-right: 150px ; 
+            margin-left: 600px;
+            align-items: end;
+            justify-content: end;
+            margin-top: -270px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+  
+        }
+      .formulario-profissional{
+        display: flex;
+        text-align: start;
+        color: var(---grey2);
+        font-family: 'Hedvig Letters Serif', serif;
+        font-family: 'Kanit', sans-serif;
+        font-weight: bold;
+        flex-direction: column;
+        font-size: 14px;  
+        max-width: 544px;
+        height: 44px;
+        
+    }
+    input{
+        padding: 2px;
+        font-size:20px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 13px;
+        border: 3px;
+        background-color: var(---grey);
+    } 
+    .img-perfil{
+      width: 80px;
+      height: 80px;
+      margin-left: 35px;
+      
+    }
+    .texto-perfil-alterar-foto{
+      font-family: 'Kanit', sans-serif;
+      font-size: 15px;
+      margin-left: 145px;
+      max-width: 140px;
+      text-align: center;
+      margin-left:250px
+    }
+    .texto-saudacao-perfil{
+      font-size: 30px;
+      width: 20px;
+      font-family: 'Kanit', sans-serif;
+      font-weight: 300;
+      margin-left: 150px;
+      margin-left:250px
+
+    }
+    .img-back{
+      margin-top: -80px;
+      width: 10px;
+      height: 10px;
+    }
+    .link-back{
+      font-family: 'Kanit', sans-serif;
+      text-decoration: none;
+      text-align: center;
+      color: var(---primaria);
+      padding-left: 35px;
+      padding-bottom: -4px;
+    }
+ .img-male-user{
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10px;
+ 
+ }
+ .perfil-usuario{
+  text-align: center;
+ }
+ .titulo-usuario{
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-left: 75px;
+ }
+ .caixas-usuarios{
+  display: flex;
+  padding: 15px;
+  margin-left: 50px;
+ 
+ }
+ .avaliacao-usario, .tempo-usario,.comentarios-usario{
+  border: var(---secundaria-escura);
+   background-color: var(---secundaria-escura);
+   width: 147px;
+   height: 96px;
+   border-radius: 30px;
+   margin-right: 14px;
+   display: inline-block;
+   
+ }
+  .icon-caixa-usuario{
+   text-align: center;
+  }
+  .texto-caixa-usuario{
+    font-family: 'Kanit', sans-serif;
+    
+  }
+  .numero-caixa-usuario{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+  }
+.paragrafo-usuario{
+  font-family: 'Kanit', sans-serif;
+  width: 900px;
+  margin-left: 450px;
+}
+.caixa-horario{
+  background-color: var(---secundaria-escura);
+  width: 491px;
+  height: 86px;
+  margin-left: 660px;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-family: 'Kanit', sans-serif;
+  
+
+}
+.caixa-horario-centraliza{
+  margin-top: -70px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+.numero-caixa-horario-usuario{
+  font-size: 28px;
+  font-weight: bold;
+  
+}
+.icon-clock2-usuario{
+ margin-top: 15px;
+ margin-left: 30px;
+}
+.button-diploma-usuario{
+  width: 255px;
+  height: 65px;
+  text-align: start;
+  border-radius: 20px;
+  text-align: center;
+  
+}
+.button-contato-usuario{
+  background-color: var(---primaria);
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;  
+  border: var(---secudaria);
+  color: var(---white);
+  font-family: 'Kanit', sans-serif;
+  font-size: 14px;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+.centrazilar-button-diploma{
+ display:inline-block;
+  
+}
+.icon-view{
+  width: 25px;
+}
+
+    
+    
+      

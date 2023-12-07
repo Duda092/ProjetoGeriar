@@ -1,0 +1,509 @@
+/*color -----------------*/
+:root{ 
+    
+  ---primaria: rgb(145, 0, 157);
+---primaria-escura: rgba(75, 0, 82, 0.925);;
+---primaria-clara: rgb(181, 41, 194);
+---secudaria:rgb(250, 235, 215);
+---secundaria-clara: rgb(254, 245, 233);
+---secundaria-escura: rgb(254, 215, 163);
+---seundaria2:rgba(224, 192, 150, 0.692);
+---black: #000;
+---grey:#CCCC;
+---white:#fff;
+
+
+}
+
+.main{
+    background-color: var(---seundaria2);
+    margin-top: 50px;
+    padding: 60px;
+    
+}
+body{
+   background-color: var(---secudaria);
+
+   
+}
+
+.barra-nav{
+    text-align: end;
+    box-shadow: black;
+    display: block;
+    margin: -50px;
+    margin-right: 50px;
+    word-spacing: 40px;
+}
+
+.nav{
+    background: var(---primaria);
+    margin-right: 20px;
+        border-radius: 10px;
+        height: 100px;
+        
+}
+    
+.nav-link{
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    color: var(---secundaria-clara);
+    font-size: 20px;
+    align-items: flex-end;}
+    
+
+.nav-link2{
+    color: var(---secundaria-clara);
+    background-color: var(---primaria-escura);
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    border: solid 5px var(---primaria-escura);
+    border-radius:30px;
+}
+    
+.nav-link:hover{
+    font-size: 25px;
+    color: var(---secundaria-clara);
+    transition: 0.5s;}
+
+.home{
+    display: flex;
+    align-items:center;
+}
+
+.sobre{
+    background-color: var(---seundaria2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-block-end: 150px;
+}
+/* .corpo-principal{
+   display: flex;
+   flex-direction: row;
+} */
+
+
+.img{
+    
+    height: 650px;
+    width: 450px;
+    margin: 25px  60px 25px 300px;
+   
+}
+
+.img-1{
+    height: 400px;
+    width: 400px;
+    margin: 5px; 
+   
+}
+
+.img-3{
+    height: 600px;
+    width: 550px;
+   margin: 5px;
+}
+ 
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: var(---primaria);
+    font-size: 60px;
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: var(---primaria);
+    font-size: 30px;
+}
+
+h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mensagem1{
+    text-align: start;
+}
+
+
+.paragrafo0{
+    color: var(---primaria-escura);
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+    text-align: start;
+    width: 450px;}
+    
+
+.paragrafo1{
+    color:var(---preto) ;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+} 
+
+
+    .paragrafo2{
+        color: var(---secundaria-clara);
+        font-family: 'Fira Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    } 
+
+
+
+    .paragrafo3{
+        color: var(---preto);
+        font-family: 'Fira Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
+        font-size: 20px;
+        width: 600px;
+        text-align: center;}
+
+
+    
+        .paragrafo4{
+            color:var(---preto) ;
+            font-family: 'Fira Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
+            text-align: start;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            font-size: 20px;
+        } 
+        
+
+        .box-4{
+            background-color: var(---seundaria);
+            padding: 40px;
+            margin: 5px;
+            border:5px solid var(---primaria);
+            border-radius: 50px;
+            width: 400px;
+
+        }
+    
+  
+
+    
+
+    header{
+        box-shadow: inset black;
+    }
+
+
+    .logo{
+        height: 100px; 
+        width: 130px;
+     }
+
+     .pergunta{
+        color: var(---secundaria-clara);
+        text-align: center;
+        font-size: 50px;
+        font-family:'Fira Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
+        background-color: var(---primaria-escura);
+    }
+
+ 
+.corpo-principal2{
+
+    display: flex;
+    align-items:center;
+    justify-content: space-around;}
+
+    .X{
+        color: var(---seundaria2);
+    }
+footer{
+    margin-top: 50px;
+  
+    
+   
+}
+
+    .box-1{
+        background-color: var(---primaria-clara);
+        margin-top: -20px;
+        border-radius: 15px; 
+        height: 350px;
+        opacity: 70%;
+    }
+
+    .box-2{
+        background-color: var(---primaria);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 60px;
+        height: 200px;}
+
+  
+
+
+.p{
+    text-align: center;
+    color: var(---secundaria-clara);
+}
+
+.contact-text{
+    color: var(---secundaria-clara);
+    display: flex;
+    align-items:center;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.voltar{
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    color: var(---primaria-escura);
+}
+
+ 
+
+    .button-login{
+      border-radius: 25px;
+      width: 500px;
+      height: 50px;
+      color: white;
+      background-color:var(---primaria);
+      border: var(---primaria);
+      font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      text-decoration: none;
+      
+    }
+  h4{
+      color: var(---black);
+       margin-left: 60px;
+       padding-inline-start: 2px;
+      
+    }
+    .button-cadastro{
+      width: 230px;
+      height: 50px;
+      border-radius: 25px;
+      background-color: var(---primaria-escura);
+      color: var(---white);
+      font-family: 'Kanit', sans-serif;
+      font-weight:400;
+      
+  }
+
+      .box-cadastro{
+        color: var(---secundaria-clara);
+          display: flex;
+          align-items: flex-end;
+          justify-content: end;
+          margin: -50px;
+          margin-bottom:4px;
+          
+          
+      }
+
+   
+
+      
+
+    .img-cadastro{
+      width:30px ;
+      height: 30px;
+      margin: -10px;
+      margin-right: 3px;        
+    }
+
+    .subtitulos{
+        margin-left: 60px;
+        color:var(---black);
+        font-size: 50px;
+  
+    }
+
+    .entrecomsenha, .entrecomsenha:visited, .entrecomsenha:active, .entrecomsenha:hover, .entrecomsenha:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .facacada, .facacada:visited{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    .home-cadastro-login{
+        color: var(---primaria-escura);
+        font-family: 'Kanit', sans-serif;
+        text-align: start;
+        width: 450px;
+        
+      } 
+
+
+
+      .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 300px;
+        
+      }
+
+      .conjunto{
+        justify-content: center;
+        text-align: center;
+      
+        margin-top: -820px;
+       margin-left: 500px;
+       
+    }
+
+    input:focus-visible{
+      outline: none;
+    }
+    
+    input{
+        padding: 2px;
+        font-size:15px;
+        font-family: 'Kanit', sans-serif;
+        border-radius: 13px;
+        border: 3px;
+        background-color: var(---grey);
+    } 
+
+      .nome, .email, .senha, .endereco, .telefone, .identidade, .cpf, .datanasc{
+        width: 700px;
+        height: 64px;
+        border-radius: 50px;
+        background: #D6D6D6;
+        color: #818181;
+        font-family: Kanit;
+        margin: 10px;
+        padding-left: 100px;
+        
+        
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .btn-cadastro{
+        width: 340px;
+        height: 59px;
+        border-radius: 32px;
+        background: #91009D;
+        border: 32px;
+        margin-left: 250px;
+      
+        
+        color: #FEF5E9;
+        text-align: center;
+        font-family: Kanit;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      .titulo{
+        margin-top: -70px;
+        margin-left: 1000px;
+        width: 380px;
+        height: 62px;
+        color: #000;
+
+        text-align: end;
+        font-family: Kanit;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .japossui{
+        width: 278px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 1080px ;
+        color: #818181;
+
+        text-align: end;
+        font-family: Kanit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+      
+      }
+
+      .nomedocadastro{
+        width: 325px;
+        height: 132px;
+        color: #4B0052;
+
+        
+        text-align: center;
+        font-family: Kanit;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        margin-top: -550px;
+        margin-left: 240px;
+
+      }
+
+      .imagemcliente{
+         margin-left: 150px;
+         width: 500px;
+         height: 500px;
+      }
+      
+      main{
+        padding: 60px;
+         margin-top: 50px;
+         
+     }
+    
+      /* #name{
+        background-image: url(../CSS/img/Person.png);
+        background-repeat: no-repeat;
+        background-position: 1.3rem;
+        padding-left: 1.3rem;
+        background-position-x: 1.3rem left;
+      }
+      #emailid{
+        background-image: url(../CSS/img/Letter.png);
+        background-repeat: no-repeat;
+        background-position: 1.3rem;
+        padding-left: 1.3rem;
+        background-position-x: 1.3rem left;
+      } */
+
+      
+    
+    
